@@ -12,3 +12,4 @@ c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\tinkoff_test new.pdb
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\tinkoff_test new.genruntimeconfig.cache
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\ref\tinkoff_test new.dll
+c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\tinkoff_test new.sourcelink.json
