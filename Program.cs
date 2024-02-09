@@ -13,7 +13,8 @@ namespace tinkoff_test_new
             // test1 = Array.ConvertAll<string,int>(test, int.Parse);
             // (coord1[test1[0]-1],coord1[test1[1]-1]) = (coord1[test1[1]-1],coord1[test1[0]-1]);
             // Console.WriteLine(coord1);
-            first_another.test();
+            // first_another.test();
+            second.test();
         }
     }
 }
