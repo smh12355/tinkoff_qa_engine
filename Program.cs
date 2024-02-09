@@ -14,7 +14,8 @@ namespace tinkoff_test_new
             // (coord1[test1[0]-1],coord1[test1[1]-1]) = (coord1[test1[1]-1],coord1[test1[0]-1]);
             // Console.WriteLine(coord1);
             // first_another.test();
-            second.test();
+            // second.test();
+            third.test();
         }
     }
 }

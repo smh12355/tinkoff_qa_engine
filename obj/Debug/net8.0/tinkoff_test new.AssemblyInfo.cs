@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tinkoff_test new")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188e9a0016641781f3931b2bd78e6858d93c3a2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91b2049bfbc1d3ad428a49f9e2a7290fa3787112")]
 [assembly: System.Reflection.AssemblyProductAttribute("tinkoff_test new")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tinkoff_test new")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
