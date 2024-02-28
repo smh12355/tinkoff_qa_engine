@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_test new\\tinkoff_test new.csproj": {}
+    "C:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_second\\tinkoff_qa_engine\\tinkoff_test new.csproj": {}
   },
   "projects": {
-    "c:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_test new\\tinkoff_test new.csproj": {
+    "C:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_second\\tinkoff_qa_engine\\tinkoff_test new.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_test new\\tinkoff_test new.csproj",
+        "projectUniqueName": "C:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_second\\tinkoff_qa_engine\\tinkoff_test new.csproj",
         "projectName": "tinkoff_test new",
-        "projectPath": "c:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_test new\\tinkoff_test new.csproj",
+        "projectPath": "C:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_second\\tinkoff_qa_engine\\tinkoff_test new.csproj",
         "packagesPath": "C:\\Users\\krik6\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_test new\\obj\\",
+        "outputPath": "C:\\Users\\krik6\\OneDrive\\Рабочий стол\\tinkoff_second\\tinkoff_qa_engine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

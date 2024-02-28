@@ -2,6 +2,7 @@ using System;
 using System.Text;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Net.Mail;
 
 namespace tinkoff_test_new
 {
@@ -10,35 +11,17 @@ namespace tinkoff_test_new
         internal static void test()
         {
             string N = Console.ReadLine();
-            string[] carts = Console.ReadLine().Split(' ');
-            int[] carts_int = Array.ConvertAll<string,int>(carts,int.Parse);
-            Array.Sort<int>(carts_int);
-            int counter_index = 1;
-            int counter_value = carts_int[0];
-            for (int i = 1; i <= carts_int.GetUpperBound(0); i++)
+            int[] carts = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            Array.Sort<int>(carts);
+            for (int i = 0; i < carts.GetUpperBound(0) - 2; i+=4)
             {
-                if (carts_int[i] != counter_value)   
+                if (carts[i] != carts[i+3])
                 {
-                    if (counter_index == 4)
-                    {
-                        counter_index = 1;
-                        counter_value = carts_int[i];
-                        continue;
-                    }
-                    else
-                    {
-                        counter_index = 4;
-                        Console.WriteLine(counter_value);
-                        break;
-                    }
+                    Console.WriteLine(carts[i]);
+                    return;
                 }
-                counter_index++;
             }
-            if (counter_index != 4)
-            {
-                Console.WriteLine(counter_value);
-            }
-
+            Console.WriteLine(carts[carts.GetUpperBound(0) - 2]);
         }
     }
 }

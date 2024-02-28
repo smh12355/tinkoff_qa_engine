@@ -13,3 +13,18 @@ c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\tinkoff_test new.genruntimeconfig.cache
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\ref\tinkoff_test new.dll
 c:\Users\krik6\OneDrive\Рабочий стол\tinkoff_test new\obj\Debug\net8.0\tinkoff_test new.sourcelink.json
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.AssemblyInfoInputs.cache
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.AssemblyInfo.cs
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.csproj.CoreCompileInputs.cache
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.sourcelink.json
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.dll
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\refint\tinkoff_test new.dll
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.pdb
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\bin\Debug\net8.0\tinkoff_test new.exe
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\bin\Debug\net8.0\tinkoff_test new.deps.json
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\bin\Debug\net8.0\tinkoff_test new.runtimeconfig.json
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\bin\Debug\net8.0\tinkoff_test new.dll
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\bin\Debug\net8.0\tinkoff_test new.pdb
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\tinkoff_test new.genruntimeconfig.cache
+C:\Users\krik6\OneDrive\Рабочий стол\tinkoff_second\tinkoff_qa_engine\obj\Debug\net8.0\ref\tinkoff_test new.dll
