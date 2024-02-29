@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tinkoff_test new", "tinkoff_test new.csproj", "{F3DB44C2-06B3-4C88-B1BC-9E8131D5D474}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{6784655C-A4D9-4572-920B-CE5EC7666C34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

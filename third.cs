@@ -38,33 +38,49 @@ namespace tinkoff_test_new
             {
                 if ((NLW[1] - coords[^1]) % NLW[2] != 0)
                 {
-                    amount += (int)((NLW[1] - coords[^1]) / NLW[2]) + 1;
+                    amount += ((int)((NLW[1] - coords[^1]) / NLW[2]) + 1) - 1;
                 }
                 else
                 {
-                    amount += (int)((NLW[1] - coords[^1]) / NLW[2]);
+                    amount += (int)((NLW[1] - coords[^1]) / NLW[2]) - 1;
                 }
             }
             else if (coords[^1] == NLW[1] - NLW[2])
             {}
             else
             {
-                amount += 1;
             }
             if (NLW[0] == 2)
             {
-                if ((coords[^1] - coords[0]) % NLW[2] != 0)
+                if ((coords[^1] - coords[0]) > NLW[2])
                 {
-                    amount += (int)((coords[^1] - coords[0]) / NLW[2]) + 1;
-                }
-                else
-                {
-                    amount += (int)((coords[^1] - coords[0]) / NLW[2]);
+                    if ((coords[^1] - coords[0]) % NLW[2] != 0)
+                    {
+                        amount += (int)((coords[^1] - coords[0]) / NLW[2]) + 1 - 1;
+                    }
+                    else
+                    {
+                        amount += (int)((coords[^1] - coords[0]) / NLW[2]) - 1;
+                    }
                 }
             }
             if (NLW[0] > 2)
             {
-                
+                for (int i = 0; i < coords.GetUpperBound(0); i++)
+                {
+                    if ((coords[i+1] - coords[i]) > NLW[2])
+                    {
+                        if ((coords[i + 1] - coords[i]) % NLW[2] != 0)
+                        {
+                            amount += (int)((coords[i + 1] - coords[i]) / NLW[2]) + 1 - 1;
+                        }
+                        else
+                        {
+                            amount += (int)((coords[i + 1] - coords[i]) / NLW[2] - 1);
+                        }
+                    }
+                }
+
             }
         }
     }
