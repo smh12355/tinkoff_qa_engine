@@ -15,7 +15,9 @@ namespace tinkoff_test_new
             // Console.WriteLine(coord1);
             //first_another.test();
             //second.test();
-            third.test();
+            //third.test();
+            //DataScience.test();
+            DataScience1.test();
             //test.test1 ();
         }
     }
