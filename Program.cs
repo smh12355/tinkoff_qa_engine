@@ -17,8 +17,11 @@ namespace tinkoff_test_new
             //second.test();
             //third.test();
             //DataScience.test();
-            DataScience1.test();
+            //DataScience1.test();
             //test.test1 ();
+            //DataExamFirst.test();
+            //DataExamSecond.test();
+            DataExamThird.test();
         }
     }
 }
