@@ -18,29 +18,13 @@ namespace tinkoff_test_new
                 return;
             }
             for (int i = 0; i < commands.GetUpperBound(0); i++)
-            {
-                while (true)
+            { 
+                for (int j = i + 1; j <= commands.GetUpperBound(0); j++)
                 {
-                    if (commands[i] != i + 1)
+                    if (commands[i] > commands[j])
                     {
-                        for (int j = i + 1; j <= commands.GetUpperBound(0); j++)
-                        {
-                            if (commands[i] > commands[j])
-                            {
-                                counter++;
-                            }
-                        }
-                        break;
-                        //counter++;
-                        //int temp = commands[i];
-                        //commands[i] = commands[temp - 1];
-                        //commands[temp - 1] = temp;
+                        counter++;
                     }
-                    else
-                    {
-                        break;
-                    }
-
                 }
             }
             Console.WriteLine(counter);

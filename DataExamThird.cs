@@ -11,46 +11,60 @@ namespace tinkoff_test_new
         internal static void test()
         {
             int amount = int.Parse(Console.ReadLine());
-            List<HashSet<int>> Pairs = new List<HashSet<int>>();
+            SortedList<int,int> points = new SortedList<int,int>();
             for (int i = 0; i < amount; i++)
             {
                 int[] exmp = Console.ReadLine().Split().Select(int.Parse).ToArray();
-                HashSet<int> set = new HashSet<int>();
-                for (int j = exmp[0]; j <= exmp[1]; j++)
+                points.Add(exmp[0], 1);
+                points.Add(exmp[1], 0);
+            }
+            (int Balance, int Lenght, int Initial) = (1, 0, points.Keys[0]);
+            for (int i = 1; i < points.Count; i++)
+            {
+                if (points.Values[i] == 1 && (Balance != 0))
                 {
-                    set.Add(j);
+                    Balance++;
                 }
-                Pairs.Add(set);
-            }
-            int length = 0;
-            foreach (HashSet<int> set in Pairs)
-            {
-                length += set.Count - 1;
-            }
-            HashSet<int> intersections = new HashSet<int>(Pairs[0]);
-            for (int i = 1; i < amount; i++)
-            {
-                intersections.IntersectWith(Pairs[i]);
-            }
-            if (intersections.Count() != 0)
-            {
-                length += intersections.Count() - 1;
-            }
-            for (int i = 0; i < amount - 1; i++)
-            {
-                for (int j = i + 1; j < amount; j++)
+                else if (points.Values[i] == 0)
                 {
-                    if (Pairs[i].Intersect(Pairs[j]).Count() == 0)
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        length -= Pairs[i].Intersect(Pairs[j]).Count() - 1;
-                    }
+                    Balance--;
                 }
+                else
+                {
+                    Balance++;
+                    Initial = points.Keys[i];
+                }
+
+                if (Balance == 0)
+                {
+                    Lenght += -1 * (Initial - points.Keys[i]);
+                }
+
             }
-            Console.WriteLine(length);
+            Console.WriteLine(Lenght);
+            //for (int i = 1; i < amount; i++)
+            //{
+            //    intersections.IntersectWith(Pairs[i]);
+            //}
+            //if (intersections.Count() != 0)
+            //{
+            //    length += intersections.Count() - 1;
+            //}
+            //for (int i = 0; i < amount - 1; i++)
+            //{
+            //    for (int j = i + 1; j < amount; j++)
+            //    {
+            //        if (Pairs[i].Intersect(Pairs[j]).Count() == 0)
+            //        {
+            //            continue;
+            //        }
+            //        else
+            //        {
+            //            length -= Pairs[i].Intersect(Pairs[j]).Count() - 1;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine(length);
         }
     }
 }
